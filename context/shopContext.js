@@ -57,7 +57,6 @@ export default function ShopProvider({ children }) {
         JSON.stringify([newCart, newCheckout])
       );
     }
-    console.log(newItem);
   }
 
   async function removeCartItem(itemToRemove) {
